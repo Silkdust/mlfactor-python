@@ -36,7 +36,7 @@ pip install -r requirements.txt
 | Chapter 14 - Causality and Non-stationarity | | | &#9744;Not Started (EFT. 0423) |
 | Chapter 15 - Unsupervised Learning | | | &#9744;Not Started (EFT. 0430) |
 | Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT. 0507) |
-| References | | | &#9744;Ongoing (EFT. 0312) |
+| References | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/REFERENCES.md) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/References.pdf) | &#9745;Finished |
 
 ## Acknowledgements
 - Main reference: Coqueret, G., & Guida, T. (2020). *Machine Learning for Factor Investing: R Version.* Chapman and Hall/CRC.
