@@ -5,7 +5,7 @@ This repository is some reading notes and Python implementation for book "Machin
 
 For better compatibility and better accordance with original book, this repository is completed in English. 
 
-The author of this book offers some solutions for Python Notebooks. See detailed info at https://www.mlfactor.com/python.html. However, they did not offer executable files (.ipynb). For your convenience, this project offers both jupyter notebooks (.ipynb) and a PDF version produced by `nbconvert` and XeLaTeX engine.
+The author of this book offers some solutions for Python Notebooks. See detailed info at https://www.mlfactor.com/python.html. However, they did not offer executable files (.ipynb). For your convenience, this project offers both jupyter notebooks (.ipynb) and a PDF version produced by `nbconvert` and `XeLaTeX` engine.
 
 Finally, I deeply appreciate Guillaume Coqueret and Tony Guida for their devotions to this book. Published in 2020, this book really offers some up-to-date machine learning techniques and their applications to factor investing. They also offer a wide range of literatures in the book for interested readers. As a summary note, this project does not include all literature reviews in the book, and I encourage interested readers explore them in the [references](https://github.com/Silkdust/mlfactor-python/blob/main/REFERENCES.md) section or in the original book.
 
@@ -19,24 +19,33 @@ Hope you have fun reading this project!
 | Chapter 3 - Factor Investing and Asset Pricing Anomalies | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter3-Factor%20Investing%20and%20Asset%20Pricing%20Anomalies.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter3-Factor%20Investing%20and%20Asset%20Pricing%20Anomalies.pdf) | &#9745;Finished |
 | Chapter 4 - Data Preprocessing | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter4-Data%20Preprocessing.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter4-Data%20Preprocessing.pdf) | &#9745;Finished |
 | Chapter 5 - Penalized Regressions and Sparse Hedging for MVP | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter5-Penalized%20Regressions%20and%20Sparse%20Hedging%20for%20MVP.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter5-Penalized%20Regressions%20and%20Sparse%20Hedging%20for%20MVP.pdf) | &#9745;Finished[^1] |
-| Chapter 6 - Tree-based Methods | | | &#9744;Not Started (EFT[^2]. 0312) |
-| Chapter 7 - Neural Networks | | | &#9744;Not Started (EFT. 0319) |
+| Chapter 6 - Tree-based Methods | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter6-Tree-based%20Methods.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter6-Tree-based%20Methods.pdf) | &#9745;Finished |
+| Chapter 7 - Neural Networks | | | &#9744;Ongoing (EFT[^2]. 0321) |
 | Chapter 8 - Support Vector Machines | | | &#9744;Not Started (EFT. 0326) |
-| Chapter 9 - Bayesian Methods | | | &#9744;Not Started (EFT. 0326) |
-| Chapter 10 - Validating and Tuning | | | &#9744;Not Started (EFT. 0402) |
-| Chapter 11 - Validating and Tuning | | | &#9744;Not Started (EFT. 0402) |
-| Chapter 12 - Portfolio Backtesting | | | &#9744;Not Started (EFT. 0409) |
-| Chapter 13 - Interpretability | | | &#9744;Not Started (EFT. 0416) |
-| Chapter 14 - Causality and Non-stationarity | | | &#9744;Not Started (EFT. 0423) |
-| Chapter 15 - Unsupervised Learning | | | &#9744;Not Started (EFT. 0430) |
-| Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT. 0507) |
+| Chapter 9 - Bayesian Methods | | | &#9744;Not Started (EFT. 0402) |
+| Chapter 10 - Validating and Tuning | | | &#9744;Not Started (EFT. 0409) |
+| Chapter 11 - Ensemble Models | | | &#9744;Not Started (EFT. 0409) |
+| Chapter 12 - Portfolio Backtesting | | | &#9744;Not Started (EFT. 0416) |
+| Chapter 13 - Interpretability | | | &#9744;Not Started (EFT. 0423) |
+| Chapter 14 - Causality and Non-stationarity | | | &#9744;Not Started (EFT. 0430) |
+| Chapter 15 - Unsupervised Learning | | | &#9744;Not Started (EFT. 0507) |
+| Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT. 0514) |
 | References | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/REFERENCES.md) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/References.pdf) | &#9745;Finished |
 
 
 ## Depedencies
-Dependencies packages will be released in the repository in future versions in `requirenments.txt`. Generally speaking, you have to install Python3 (version 3.8 or later preferred) and jupyter notebook in your device at first. To get your notebooks work properly in your device, run the following command at the beginning:
+Dependencies packages have be released in the repository as `requirenments.txt` and will be updated regularly. Generally speaking, you have to install Python3 (version 3.8 or later preferred) and jupyter notebook in your device at first. To get your notebooks work properly in your device, run the following command after cloning this repo:
 ```
-pip install -r requirements.txt
+git clone https://github.com/Silkdust/mlfactor-python.git
+cd mlfactor-python/
+pip install -r ./requirements.txt
+```
+
+If you revise the coding or use additional packages, there is a **simple command** with `pipreqsnb` to remake the [`requirements.txt`](https://github.com/Silkdust/mlfactor-python/blob/main/requirements.txt) after cloning this repo as follows:
+```
+pip install pipreqs
+pip install pipreqsnb
+pipreqsnb --force ./ --encoding=utf-8
 ```
 
 For better I/O speed, the `data_ml` object is stored in `.pkl` format. However, this costs a lot of storage space and is *not* pushed to the repo. You may run the following commands to generate it under the `/data/` folder:
