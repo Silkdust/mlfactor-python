@@ -20,16 +20,16 @@ Hope you have fun reading this project!
 | Chapter 4 - Data Preprocessing | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter4-Data%20Preprocessing.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter4-Data%20Preprocessing.pdf) | &#9745;Finished |
 | Chapter 5 - Penalized Regressions and Sparse Hedging for MVP | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter5-Penalized%20Regressions%20and%20Sparse%20Hedging%20for%20MVP.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter5-Penalized%20Regressions%20and%20Sparse%20Hedging%20for%20MVP.pdf) | &#9745;Finished[^1] |
 | Chapter 6 - Tree-based Methods | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter6-Tree-based%20Methods.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter6-Tree-based%20Methods.pdf) | &#9745;Finished |
-| Chapter 7 - Neural Networks | | | &#9744;Ongoing (EFT[^2]. 0321) |
-| Chapter 8 - Support Vector Machines | | | &#9744;Not Started (EFT. 0326) |
-| Chapter 9 - Bayesian Methods | | | &#9744;Not Started (EFT. 0402) |
-| Chapter 10 - Validating and Tuning | | | &#9744;Not Started (EFT. 0409) |
-| Chapter 11 - Ensemble Models | | | &#9744;Not Started (EFT. 0409) |
-| Chapter 12 - Portfolio Backtesting | | | &#9744;Not Started (EFT. 0416) |
-| Chapter 13 - Interpretability | | | &#9744;Not Started (EFT. 0423) |
-| Chapter 14 - Causality and Non-stationarity | | | &#9744;Not Started (EFT. 0430) |
-| Chapter 15 - Unsupervised Learning | | | &#9744;Not Started (EFT. 0507) |
-| Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT. 0514) |
+| Chapter 7 - Neural Networks | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter7-Neural-Networks.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/blob/main/notes-pdfver/Chapter7-Neural-Networks.pdf) | &#9745;Finished |
+| Chapter 8 - Support Vector Machines | | | &#9744;Ongoing (EFT[^2]. 1015) |
+| Chapter 9 - Bayesian Methods | | | &#9744;Not Started (EFT. 1020) |
+| Chapter 10 - Validating and Tuning | | | &#9744;Not Started (EFT. 1025) |
+| Chapter 11 - Ensemble Models | | | &#9744;Not Started (EFT. 1031) |
+| Chapter 12 - Portfolio Backtesting | | | &#9744;Not Started (EFT. 1107) |
+| Chapter 13 - Interpretability | | | &#9744;Not Started (EFT. 1114) |
+| Chapter 14 - Causality and Non-stationarity | | | &#9744;Not Started (EFT. 1121) |
+| Chapter 15 - Unsupervised Learning | | | &#9744;Not Started (EFT. 1128) |
+| Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT. 1205) |
 | References | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/REFERENCES.md) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/References.pdf) | &#9745;Finished |
 
 
@@ -64,4 +64,4 @@ data.to_pickle("./data/data_ml.pkl")
 - This project is completely **free** and uses CC0-1.0 license. We encourage reproducibility. See [here](https://github.com/Silkdust/mlfactor-python/blob/main/LICENSE) for details.
 
 [^1]: There are some minor differences between `ElasticNet` in `sklearn` and `glmnet` in `R`. See [here](https://stats.stackexchange.com/questions/206898/difference-between-elasticnet-in-scikit-learn-python-and-glmnet-in-r) for details.
-[^2]: Estimated Finished Time (before the target date in 2023).
+[^2]: Estimated Finished Time (before the target date in 2023). Due to the academic works and internships (and holidays) for the author, the original schedule has been postponed. The author had already re-activated the project in October.
