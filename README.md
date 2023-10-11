@@ -20,16 +20,16 @@ Hope you have fun reading this project!
 | Chapter 4 - Data Preprocessing | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter4-Data%20Preprocessing.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter4-Data%20Preprocessing.pdf) | &#9745;Finished |
 | Chapter 5 - Penalized Regressions and Sparse Hedging for MVP | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter5-Penalized%20Regressions%20and%20Sparse%20Hedging%20for%20MVP.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter5-Penalized%20Regressions%20and%20Sparse%20Hedging%20for%20MVP.pdf) | &#9745;Finished[^1] |
 | Chapter 6 - Tree-based Methods | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter6-Tree-based%20Methods.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter6-Tree-based%20Methods.pdf) | &#9745;Finished |
-| Chapter 7 - Neural Networks | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter7-Neural-Networks.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/blob/main/notes-pdfver/Chapter7-Neural-Networks.pdf) | &#9745;Finished |
-| Chapter 8 - Support Vector Machines | | | &#9744;Ongoing (EFT[^2]. 1015) |
-| Chapter 9 - Bayesian Methods | | | &#9744;Not Started (EFT. 1020) |
-| Chapter 10 - Validating and Tuning | | | &#9744;Not Started (EFT. 1025) |
-| Chapter 11 - Ensemble Models | | | &#9744;Not Started (EFT. 1031) |
-| Chapter 12 - Portfolio Backtesting | | | &#9744;Not Started (EFT. 1107) |
-| Chapter 13 - Interpretability | | | &#9744;Not Started (EFT. 1114) |
-| Chapter 14 - Causality and Non-stationarity | | | &#9744;Not Started (EFT. 1121) |
-| Chapter 15 - Unsupervised Learning | | | &#9744;Not Started (EFT. 1128) |
-| Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT. 1205) |
+| Chapter 7 - Neural Networks | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter7-Neural-Networks.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter7-Neural-Networks.pdf) | &#9745;Finished |
+| Chapter 8 - Support Vector Machines | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter8-Support-Vector-Machines.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter8-Support-Vector-Machines.pdf) | &#9745;Finished |
+| Chapter 9 - Bayesian Methods | | | &#9744;Ongoing (EFT[^2]. 1015) |
+| Chapter 10 - Validating and Tuning | | | &#9744;Not Started (EFT. 1020) |
+| Chapter 11 - Ensemble Models | | | &#9744;Not Started (EFT. 1025) |
+| Chapter 12 - Portfolio Backtesting | | | &#9744;Not Started (EFT. 1031) |
+| Chapter 13 - Interpretability | | | &#9744;Not Started (EFT. 1105) |
+| Chapter 14 - Causality and Non-stationarity | | | &#9744;Not Started (EFT. 1110) |
+| Chapter 15 - Unsupervised Learning | | | &#9744;Not Started (EFT. 1115) |
+| Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT. 1120) |
 | References | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/REFERENCES.md) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/References.pdf) | &#9745;Finished |
 
 
