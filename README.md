@@ -23,8 +23,8 @@ Hope you have fun reading this project!
 | Chapter 7 - Neural Networks | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter7-Neural-Networks.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter7-Neural-Networks.pdf) | &#9745;Finished |
 | Chapter 8 - Support Vector Machines | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter8-Support-Vector-Machines.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter8-Support-Vector-Machines.pdf) | &#9745;Finished |
 | Chapter 9 - Bayesian Methods | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter9-Bayesian-Methods.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter9-Bayesian-Methods.pdf) | &#9745;Finished[^2] |
-| Chapter 10 - Validating and Tuning | | | &#9744;Ongoing (EFT[^3]. 1022) |
-| Chapter 11 - Ensemble Models | | | &#9744;Not Started (EFT. 1025) |
+| Chapter 10 - Validating and Tuning | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter10-Validating-and-Tuning.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter10-Validating-and-Tuning.pdf) | &#9745;Finished |
+| Chapter 11 - Ensemble Models | | | &#9744;Ongoing (EFT[^3]. 1028) |
 | Chapter 12 - Portfolio Backtesting | | | &#9744;Not Started (EFT. 1031) |
 | Chapter 13 - Interpretability | | | &#9744;Not Started (EFT. 1105) |
 | Chapter 14 - Causality and Non-stationarity | | | &#9744;Not Started (EFT. 1110) |
