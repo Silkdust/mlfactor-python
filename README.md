@@ -24,8 +24,8 @@ Hope you have fun reading this project!
 | Chapter 8 - Support Vector Machines | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter8-Support-Vector-Machines.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter8-Support-Vector-Machines.pdf) | &#9745;Finished |
 | Chapter 9 - Bayesian Methods | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter9-Bayesian-Methods.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter9-Bayesian-Methods.pdf) | &#9745;Finished[^2] |
 | Chapter 10 - Validating and Tuning | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter10-Validating-and-Tuning.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter10-Validating-and-Tuning.pdf) | &#9745;Finished |
-| Chapter 11 - Ensemble Models | | | &#9744;Ongoing (EFT[^3]. 1028) |
-| Chapter 12 - Portfolio Backtesting | | | &#9744;Not Started (EFT. 1031) |
+| Chapter 11 - Ensemble Models | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter11-Ensemble-Models.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter11-Ensemble-Models.pdf) | &#9745;Finished[^3] |
+| Chapter 12 - Portfolio Backtesting | | | &#9744;Ongoing (EFT[^4]. 1031) |
 | Chapter 13 - Interpretability | | | &#9744;Not Started (EFT. 1105) |
 | Chapter 14 - Causality and Non-stationarity | | | &#9744;Not Started (EFT. 1110) |
 | Chapter 15 - Unsupervised Learning | | | &#9744;Not Started (EFT. 1115) |
@@ -66,4 +66,5 @@ data.to_pickle("./data/data_ml.pkl")
 [^1]: There are some minor differences between `ElasticNet` in `sklearn` and `glmnet` in `R`. See [here](https://stats.stackexchange.com/questions/206898/difference-between-elasticnet-in-scikit-learn-python-and-glmnet-in-r) for details.
 [^2]: Two less familiarized packages in Python are faciliated in this Chapter to complete the Bayesian linear regression and the BART. For the first one, we provide the source code inside the notebook so that there is virtually no need for you to install the package `conjugate_bayes` (which is messy). 
 For the second package `bartpy`, please use this command to install the `BartPy` package to avoid from the following [issues #37](https://github.com/JakeColtman/bartpy/issues/37) and [#51](https://github.com/JakeColtman/bartpy/issues/51): `pip install git+https://github.com/JakeColtman/bartpy.git@pytorch --upgrade`.
-[^3]: Estimated Finished Time (before the target date in 2023). Due to the academic works and internships (and holidays) for the author, the original schedule has been postponed. The author had already re-activated the project in October.
+[^3]: You may find some model caches used in this Chapter (or possibly, previous and future chapters) under the `/models/` folder.
+[^4]: Estimated Finished Time (before the target date in 2023). Due to the academic works and internships (and holidays) for the author, the original schedule has been postponed. The author had already re-activated the project in October.
