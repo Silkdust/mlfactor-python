@@ -25,8 +25,8 @@ Hope you have fun reading this project!
 | Chapter 9 - Bayesian Methods | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter9-Bayesian-Methods.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter9-Bayesian-Methods.pdf) | &#9745;Finished[^2] |
 | Chapter 10 - Validating and Tuning | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter10-Validating-and-Tuning.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter10-Validating-and-Tuning.pdf) | &#9745;Finished |
 | Chapter 11 - Ensemble Models | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter11-Ensemble-Models.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter11-Ensemble-Models.pdf) | &#9745;Finished[^3] |
-| Chapter 12 - Portfolio Backtesting | | | &#9744;Ongoing (EFT[^4]. 1031) |
-| Chapter 13 - Interpretability | | | &#9744;Not Started (EFT. 1105) |
+| Chapter 12 - Portfolio Backtesting | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter12-Portfolio-Backtesting.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter12-Portfolio-Backtesting.pdf) | &#9745;Finished |
+| Chapter 13 - Interpretability | | | &#9744;Ongoing (EFT[^4]. 1105) |
 | Chapter 14 - Causality and Non-stationarity | | | &#9744;Not Started (EFT. 1110) |
 | Chapter 15 - Unsupervised Learning | | | &#9744;Not Started (EFT. 1115) |
 | Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT. 1120) |
@@ -34,7 +34,7 @@ Hope you have fun reading this project!
 
 
 ## Depedencies
-Dependencies packages have be released in the repository as `requirenments.txt` and will be updated regularly. Generally speaking, you have to install Python3 (version 3.8 or later preferred) and jupyter notebook in your device at first. To get your notebooks work properly in your device, run the following command after cloning this repo:
+Dependencies packages have be released in the repository as `requirements.txt` and will be updated regularly. Generally speaking, you have to install Python3 (version 3.8 or later preferred) and jupyter notebook in your device at first. To get your notebooks work properly in your device, run the following command after cloning this repo:
 ```
 git clone https://github.com/Silkdust/mlfactor-python.git
 cd mlfactor-python/
