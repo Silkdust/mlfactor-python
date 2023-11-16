@@ -27,8 +27,8 @@ Hope you have fun reading this project!
 | Chapter 11 - Ensemble Models | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter11-Ensemble-Models.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter11-Ensemble-Models.pdf) | &#9745;Finished[^3] |
 | Chapter 12 - Portfolio Backtesting | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter12-Portfolio-Backtesting.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter12-Portfolio-Backtesting.pdf) | &#9745;Finished |
 | Chapter 13 - Interpretability | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter13-Interpretability.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter13-Interpretability.pdf) | &#9745;Finished |
-| Chapter 14 - Causality and Non-stationarity | | | &#9744;Ongoing (EFT[^4]. 1116) |
-| Chapter 15 - Unsupervised Learning | | | &#9744;Not Started (EFT. 1120) |
+| Chapter 14 - Causality and Non-stationarity | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter14-Causality-and-non-Stationarity.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter14-Causality-and-non-Stationarity.pdf) | &#9745;Finished[^4] |
+| Chapter 15 - Unsupervised Learning | | | &#9744;Ongoing (EFT[^5]. 1120) |
 | Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT. 1125) |
 | References | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/REFERENCES.md) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/References.pdf) | &#9745;Finished |
 
@@ -67,4 +67,5 @@ data.to_pickle("./data/data_ml.pkl")
 [^2]: Two less familiarized packages in Python are faciliated in this Chapter to complete the Bayesian linear regression and the BART. For the first one, we provide the source code inside the notebook so that there is virtually no need for you to install the package `conjugate_bayes` (which is messy). 
 For the second package `bartpy`, please use this command to install the `BartPy` package to avoid from the following [issues #37](https://github.com/JakeColtman/bartpy/issues/37) and [#51](https://github.com/JakeColtman/bartpy/issues/51): `pip install git+https://github.com/JakeColtman/bartpy.git@pytorch --upgrade`.
 [^3]: You may find some model caches used in this Chapter (or possibly, previous and future chapters) under the `/models/` folder.
-[^4]: Estimated Finished Time (before the target date in 2023). Due to the academic works and internships (and holidays) for the author, the original schedule has been postponed. The author had already re-activated the project in October.
+[^4]: In this Chapter, the causal additive models (`CAM`) and the `PC` algorithms are implemented in Python with the aid of the package `cdt`, which requires the R environment and packages `CAM`, `(k)pcalg` and `RCIT`. The configuration can be complex, so we *strongly* recommend readers to get the trained models under the `/models/` folder (`graph_cam.pkl` and `graph_pc.pkl`). Interested readers can refer to [this website](https://medium.com/@smmishu/installing-cdt-causal-discovery-toolbox-in-windows-9209967c33c9) for installation guides.
+[^5]: Estimated Finished Time (before the target date in 2023). Due to the academic works and internships (and holidays) for the author, the original schedule has been postponed. The author had already re-activated the project in October.
