@@ -28,8 +28,8 @@ Hope you have fun reading this project!
 | Chapter 12 - Portfolio Backtesting | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter12-Portfolio-Backtesting.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter12-Portfolio-Backtesting.pdf) | &#9745;Finished |
 | Chapter 13 - Interpretability | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter13-Interpretability.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter13-Interpretability.pdf) | &#9745;Finished |
 | Chapter 14 - Causality and Non-stationarity | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter14-Causality-and-non-Stationarity.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter14-Causality-and-non-Stationarity.pdf) | &#9745;Finished[^4] |
-| Chapter 15 - Unsupervised Learning | | | &#9744;Ongoing (EFT[^5]. 1120) |
-| Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT. 1125) |
+| Chapter 15 - Unsupervised Learning | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter15-Unsupervised-Learning.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter15-Unsupervised-Learning.pdf) | &#9745;Finished |
+| Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT[^5]. 1123) |
 | References | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/REFERENCES.md) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/References.pdf) | &#9745;Finished |
 
 
