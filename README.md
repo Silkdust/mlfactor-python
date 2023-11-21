@@ -14,6 +14,7 @@ Hope you have fun reading this project!
 ## Timelines and Contents
 |  Chapter Name  | Notebook Ref | PDF Download | Status |
 |  :--:  | :--:  | :--: | :--: |
+| **Full Version** | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/MLFactor_Python_Notes.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/MLFactor_Python_Notes.pdf) | &#9745;Finished |
 | Chapter 1 - Notations and Data | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter1-Notations.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter1-Notations.pdf) | &#9745;Finished |
 | Chapter 2 - Introduction | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter2-Introduction.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter2-Introduction.pdf) | &#9745;Finished |
 | Chapter 3 - Factor Investing and Asset Pricing Anomalies | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter3-Factor%20Investing%20and%20Asset%20Pricing%20Anomalies.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter3-Factor%20Investing%20and%20Asset%20Pricing%20Anomalies.pdf) | &#9745;Finished |
@@ -29,8 +30,12 @@ Hope you have fun reading this project!
 | Chapter 13 - Interpretability | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter13-Interpretability.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter13-Interpretability.pdf) | &#9745;Finished |
 | Chapter 14 - Causality and Non-stationarity | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter14-Causality-and-non-Stationarity.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter14-Causality-and-non-Stationarity.pdf) | &#9745;Finished[^4] |
 | Chapter 15 - Unsupervised Learning | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter15-Unsupervised-Learning.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter15-Unsupervised-Learning.pdf) | &#9745;Finished |
-| Chapter 16 - Reinforcement Learning | | | &#9744;Not Started (EFT[^5]. 1123) |
+| Chapter 16 - Reinforcement Learning | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/Chapter16-Reinforcement-Learning.ipynb) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/Chapter16-Reinforcement-Learning.pdf) | &#9745;Finished |
 | References | [Here](https://github.com/Silkdust/mlfactor-python/blob/main/REFERENCES.md) | [Download](https://github.com/Silkdust/mlfactor-python/raw/main/notes-pdfver/References.pdf) | &#9745;Finished |
+
+**Updated on November 21, 2023:** The notes for all 16 chapters have been finished and an integrated version has been generated with the `nbmerge` tool for readers to enjoy this project efficiently! The notes in Python are, after all, some humble work. However, this project also serves as a milestone for my first open-source project, and I will try my best to make more contributions.
+
+Finally, I would make my deep appreciation again to the authors of this book. Hope you all enjoy it.
 
 
 ## Depedencies
@@ -68,4 +73,3 @@ data.to_pickle("./data/data_ml.pkl")
 For the second package `bartpy`, please use this command to install the `BartPy` package to avoid from the following [issues #37](https://github.com/JakeColtman/bartpy/issues/37) and [#51](https://github.com/JakeColtman/bartpy/issues/51): `pip install git+https://github.com/JakeColtman/bartpy.git@pytorch --upgrade`.
 [^3]: You may find some model caches used in this Chapter (or possibly, previous and future chapters) under the `/models/` folder.
 [^4]: In this Chapter, the causal additive models (`CAM`) and the `PC` algorithms are implemented in Python with the aid of the package `cdt`, which requires the R environment and packages `CAM`, `(k)pcalg` and `RCIT`. The configuration can be complex, so we *strongly* recommend readers to get the trained models under the `/models/` folder (`graph_cam.pkl` and `graph_pc.pkl`). Interested readers can refer to [this website](https://medium.com/@smmishu/installing-cdt-causal-discovery-toolbox-in-windows-9209967c33c9) for installation guides.
-[^5]: Estimated Finished Time (before the target date in 2023). Due to the academic works and internships (and holidays) for the author, the original schedule has been postponed. The author had already re-activated the project in October.
